@@ -1,4 +1,4 @@
-package com.example.springex.controller;
+package com.douzone.hellospring.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

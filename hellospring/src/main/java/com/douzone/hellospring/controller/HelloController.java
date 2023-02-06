@@ -1,4 +1,4 @@
-package com.example.springex.controller;
+package com.douzone.hellospring.controller;
 
 import java.io.IOException;
 import java.io.Writer;
