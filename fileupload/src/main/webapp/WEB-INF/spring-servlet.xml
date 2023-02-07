@@ -28,7 +28,7 @@
 	</bean>
 	
 	<!-- mvc url-resource mapping -->
-	<mvc:resources location="/images/**" mapping="file:/Users/nam-woogeun/fileupload-files/"/>
+	<mvc:resources mapping="/images/**" location="file:/Users/nam-woogeun/fileupload-files/" />
 	
 	<context:annotation-config />
 	<context:component-scan base-package="com.douzone.fileupload.controller" />
