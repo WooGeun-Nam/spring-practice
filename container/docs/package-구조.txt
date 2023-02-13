@@ -2,13 +2,17 @@
 	com.douzone.container.user
 		|-- User.java
 		|-- Friend.java
+		
 	com.douzone.container.soundsystem
 		|--- CDPlayer.java
 		|--- CompactDisc.java
-	com.douzone.container.videosystem
+		
+	com.douzone.container.videosystem*
 		|--- DVDPlayer.java
 		|--- DigitalVideoDisc.java
-		|--- Avengers 
+		|--- Avengers
+		
+		
 	com.douzone.container.config.user
 		|--- AppConfig.java	
 	com.douzone.container.config.soundsystem
@@ -21,14 +25,20 @@
 	com.douzone.container.config.user
 		|--- applicationContext01.xml
 		|--- applicationContext02.xml
+		
 	com.douzone.container.config.soundsystem
 		|--- applicationContext.xml
+		
+	com.douzone.container.config.videosystem
+		|--- applicationContext.xml *
 
 
 [src/test/java]
 	com.douzone.container.soundsystem
 		|--- CDPlayerXmlConfigTest.java
 		|--- CDPlayerJavaConfigTest.java
+		
      com.douzone.container.videosystem
 		|--- DVDPlayerJavaConfigTest.java
+		|--- DVDPlayerXmlConfigTest.java
 		
