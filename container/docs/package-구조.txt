@@ -18,7 +18,7 @@
 	com.douzone.container.config.soundsystem
 		|--- CDPlayerConfig.java
 	com.douzone.container.config.videosystem
-		|--- DVDPlayerConfig.java ***
+		|--- DVDPlayerConfig.java
 
 
 [src/main/resources]
@@ -41,4 +41,7 @@
      com.douzone.container.videosystem
 		|--- DVDPlayerJavaConfigTest.java
 		|--- DVDPlayerXmlConfigTest.java
+		
+     com.douzone.container.config.videosystem.mixing
+		|--- DVDPlayerJavaConfigTest.java
 		
